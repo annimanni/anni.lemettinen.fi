@@ -1,0 +1,255 @@
+#logo {
+   font-family: 'Zeyada', cursive;
+   font-size: 120px;
+   line-height: 170px;
+   color: #fff;
+   background-color: #000;
+   text-align: center;
+   -webkit-border-radius: 65px;
+   -moz-border-radius: 65px;
+   border-radius: 65px;
+   width: 130px;
+   height: 130px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#top {
+   background-color: #212121;
+   width: 100%;
+   padding-bottom: 20px;
+   -moz-box-shadow:    inset 0 0 10px #020202;
+   -webkit-box-shadow: inset 0 0 10px #020202;
+   box-shadow:         inset 0 0 10px #020202;
+   position: fixed;
+   z-index: 10;
+}
+
+#upper {
+   margin-top: 30px;
+}
+
+#content {
+   text-align: center;
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+
+a {
+text-transform: none;
+font-size: 20px;
+font-weight: 400;
+color: #9b0c7b;
+}
+
+.center {
+  text-align: center;
+}
+
+.fixed {
+ padding-top: 15px;
+}
+
+#body {
+  	z-index: 1;
+}
+
+img {
+  max-width: 220px;
+  max-height: 250px;
+}
+
+img:hover {
+  	text-decoration: none;
+  
+	/* FIRST (order is important) */
+	opacity: 0.8;
+
+	/* SECOND (IE8) */
+	-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=80)”;
+
+	/* THIRD (IE7) */
+	filter: alpha(opacity=80);
+}
+
+.upper {
+  margin-bottom: 11px; 
+}
+
+
+.icons {
+  margin-top: 120px;
+}
+
+#mail {
+  padding: 20px 0px;
+}
+
+.icons a {
+  color: #111;
+  padding: 5px;
+  font-size: 35px;
+}
+
+.icons a:hover {
+  	text-decoration: none;
+  
+	/* FIRST (order is important) */
+	opacity: 0.8;
+
+	/* SECOND (IE8) */
+	-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=80)”;
+
+	/* THIRD (IE7) */
+	filter: alpha(opacity=80);
+}
+
+
+.hexagon {
+	width: 220px;
+	height: 124px;
+	background: #968772;
+	position: relative;
+	margin: 63px auto -50px auto;
+}
+
+.hexagon:hover {
+  	text-decoration: none;
+  
+	/* FIRST (order is important) */
+	opacity: 0.8;
+
+	/* SECOND (IE8) */
+	-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=80)”;
+
+	/* THIRD (IE7) */
+	filter: alpha(opacity=80);
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -62px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;
+	border-bottom: 62px solid #968772;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -62px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;
+	border-top: 62px solid #968772;
+}
+
+.hexagon.yellow {
+  background: #fdbe57;
+}
+
+.hexagon.yellow:before {
+	border-bottom: 62px solid #fdbe57;
+}
+
+.hexagon.yellow:after {
+	border-top: 62px solid #fdbe57;
+}
+
+.hexagon.pink {
+  background: #86c5bc;
+}
+
+.hexagon.pink:before {
+	border-bottom: 62px solid #86c5bc;
+}
+
+.hexagon.pink:after {
+	border-top: 62px solid #86c5bc;
+}
+
+.hexagon h2 {
+  padding-top: 40px;
+}
+
+.row:nth-child(2n) {
+   margin-left: 120px;
+   margin-right: -120px;
+}
+
+.row {
+margin-top: -60px;
+position: relative;
+margin-bottom: 0px;
+}
+
+img {
+  margin-bottom: -50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+        #hexagon { 	width: 172px;
+        			height: 102px;
+        			margin: 47px auto 0 auto;
+ 				}
+    
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -45px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 86px solid transparent;
+	border-right: 86px solid transparent;
+	border-bottom: 45px solid black;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -45px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 86px solid transparent;
+	border-right: 86px solid transparent;
+	border-top: 45px solid black;
+}
+.hexagon h2 {
+  padding-top: 28px;
+  font-size: 28px;
+}
+
+.row:nth-child(2n) {
+   margin-left: 95px;
+   margin-top: 10px;
+}
+
+.row {
+   margin-top: 10px;
+}
+
+.four.columns img {
+  width: 100%;
+  height: 100%;
+}
+
+}
+        
+
+@media only screen and (max-width: 767px) {
+        .hexagon {
+          margin-bottom: 35px;
+          z-index: -1;
+        }
+        
+        .row:nth-child(2n) {
+   margin-left: 0px;
+   margin-top: 10px;
+}
+}
+         
